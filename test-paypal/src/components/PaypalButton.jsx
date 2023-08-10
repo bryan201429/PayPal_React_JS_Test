@@ -34,3 +34,6 @@ const PaypalButton = (props)=>{
 }
 
 export default PaypalButton;
+
+//https://developer.paypal.com/docs/checkout/standard/customize/single-page-app/
+//
