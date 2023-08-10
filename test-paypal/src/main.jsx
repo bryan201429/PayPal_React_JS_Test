@@ -4,7 +4,7 @@ import {PayPalScriptProvider} from '@paypal/react-paypal-js'  //!Importar Paypal
 import App from './App.jsx'
 import './index.css'
 
-let clientID=AZH5o8tGZvoYHy7nDEAWrPsyeVw_b1KpSCCiw9m2HAqadaMyFjX4gE8BBC8oc8leLkInFuoGGUpufo2_   //! ID del usuario
+let clientID='AZH5o8tGZvoYHy7nDEAWrPsyeVw_b1KpSCCiw9m2HAqadaMyFjX4gE8BBC8oc8leLkInFuoGGUpufo2_'   //! ID del usuario
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
