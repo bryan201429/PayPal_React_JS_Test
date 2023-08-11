@@ -5,7 +5,7 @@ import { PayPalButtons } from "@paypal/react-paypal-js";
 
 const PaypalButton = (props)=>{
 
-    const handlePay=()=>{
+    const handlePay=(order)=>{
         window.alert('Purchase Complete! Check on myNFTs');
         console.log("orden Exitosa",order);
     }
@@ -25,7 +25,8 @@ const PaypalButton = (props)=>{
                     })
                 }}
                 onApprove={async(data,actions)=>{
-                    const order = await actions.order?.capture(handlePay())
+                    const order = await actions.order?.capture()
+                    handlePay(order)
                     
                 }}
             />
